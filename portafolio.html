@@ -20,29 +20,29 @@
 </head>
 
 
-<header class="border-2">
-    <div class="container header-container">
-        <a href="index.html" class="link-logo link-position contour-logo">WebStudio</a>
-        <nav class="nav-flex">
-            <ul class="link-position">
-                <li><a href="./index.html" class="link">Estudio</a></li>
-                <li><a href="./portafolio.html" class="link after-portafolio">Portafolio</a></li>
-                <li><a href="/contacto" class="link">Contacto</a></li>
+<header class="header__portafolio-border">
+    <div class="container header__container">
+        <a href="index.html" class="logo__style logo__spacing header__flex">WebStudio</a>
+        <nav class="nav__flex">
+            <ul class="header__flex">
+                <li><a href="./index.html" class="nav__link">Estudio</a></li>
+                <li><a href="./portafolio.html" class="nav__link header__indicator--after-portafolio">Portafolio</a></li>
+                <li><a href="./contacto" class="nav__link">Contacto</a></li>
             </ul>
         </nav>
-
-        <ul class="link-position">
-            <li class="header-contacts">
-                <a href="mailto:info@example.com" class="font-position margin-text">
-                    <svg class="mail-icon" width="16px" height="12px">
+    
+        <ul class="header__flex">
+            <li class="header__contacts">
+                <a href="mailto:info@example.com" class="header__link--text header__link--spaced">
+                    <svg class="header__icon--mail" width="16px" height="12px">
                         <use href="./spriteSVG/icons.svg#icon-mail"></use>
                     </svg>
                     info@example.com
                 </a>
             </li>
-            <li class="header-contacts">
-                <a href="tel:+525555296000" class="font-position">
-                    <svg class="phone-icon" width="10" height="16">
+            <li class="header__contacts">
+                <a href="tel:+525555296000" class="header__link--text">
+                    <svg class="header__icon--phone" width="10" height="16">
                         <use href="./spriteSVG/icons.svg#icon-phone"></use>
                     </svg>
                     +52 55 5529 6000
@@ -50,143 +50,144 @@
             </li>
         </ul>
     </div>
-</header>
+    </header>
+
 
 <main>
-    <section class="section-padding">
+    <section class="section__padding">
         <div class="container">
 
-            <ul class="container-btn">
-                <li><button type="button" class="item-btn">Todo</button></li>
-                <li><button type="button" class="item-btn">Sitios-web</button></li>
-                <li><button type="button" class="item-btn">Aplicaciones</button></li>
-                <li><button type="button" class="item-btn">Diseño</button></li>
-                <li><button type="button" class="item-btn">Marketing</button></li>
+            <ul class="buttons__container">
+                <li><button type="button" class="button__item">Todo</button></li>
+                <li><button type="button" class="button__item">Sitios-web</button></li>
+                <li><button type="button" class="button__item">Aplicaciones</button></li>
+                <li><button type="button" class="button__item">Diseño</button></li>
+                <li><button type="button" class="button__item">Marketing</button></li>
             </ul>
 
-            <ul class="container-cards">
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Tecnoduck es una plataforma de distribución de
+            <ul class="cards__container ">
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Tecnoduck es una plataforma de distribución de
                             coronavirus de última generación. Las compañías usan esta plataforma para
                             el espionaje digital y los ataques a los servidores seguros de la competencia.</p>
                         <img src="./images/website-tecnoduck.jpg" alt="Ejemplo de página web tecknoduck" width="370px"
                             height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Tecnoduck</p>
-                        <p class="product-type">Sitio-web</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Tecnoduck</p>
+                        <p class="card__description--product-type">Sitio-web</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/Basketball-poster.jpg"
                             alt="Poster del enfrentamiento de nueva orleans vs estrella dorada" width="370px"
                             height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name"> Póster de nueva orleans vs estrella dorada</p>
-                        <p class="product-type">Diseño</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name"> Póster de nueva orleans vs estrella dorada</p>
+                        <p class="card__description--product-type">Diseño</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/seafood-restaurant.jpg" alt="Logo de un pescado de restaurante seafood"
                             width="370px" height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Restaurante Seafood</p>
-                        <p class="product-type">Aplicaciones</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Restaurante Seafood</p>
+                        <p class="card__description--product-type">Aplicaciones</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/prime-project.jpg" alt="Auriculares negros" width="370px" height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Proyecto prime</p>
-                        <p class="product-type">Marketing</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Proyecto prime</p>
+                        <p class="card__description--product-type">Marketing</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/box-project.jpg" alt="Dos cajas de varios colores" width="370px"
                             height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Proyecto Cajas</p>
-                        <p class="product-type">Aplicaciones</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Proyecto Cajas</p>
+                        <p class="card__description--product-type">Aplicaciones</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/motivational-website.jpg"
                             alt="Sitio web oscuro de la inspiración no tiene límites" width="370px" height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">La inspiracion no tiene limites</p>
-                        <p class="product-type">Sitio-web</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">La inspiracion no tiene limites</p>
+                        <p class="card__description--product-type">Sitio-web</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/design-limited-edition.jpg" alt="Diseño/libro de edición limitada"
                             width="370px" height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Edicion Limitada</p>
-                        <p class="product-type">Diseño</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Edicion Limitada</p>
+                        <p class="card__description--product-type">Diseño</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/project-lab.jpg" alt="Tag con las letras del proyecto LAB" width="370px"
                             height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Proyecto LAB</p>
-                        <p class="product-type">Marketing</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Proyecto LAB</p>
+                        <p class="card__description--product-type">Marketing</p>
                     </a>
                 </li>
-                <li class="product-card">
-                    <a href="" class="overlay-box">
-                        <p class="overlay overlay-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <li class="card__product">
+                    <a href="" class="overlay__box">
+                        <p class="overlay overlay__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla fringilla quam
                             vitae velit ultrices, ac imperdiet magna
                             volutpat. Phasellus quis lectus vitae arcu luctus ornare non et nibh. Duis ullamcorper.</p>
                         <img src="./images/growing-business.jpg"
                             alt="Prototipo de la página de un negocio en crecimiento" width="370px" height="294px" />
                     </a>
-                    <a href="" class="card-information">
-                        <p class="product-name">Negocio en Crecimiento</p>
-                        <p class="product-type">Aplicaciones</p>
+                    <a href="" class="card__information">
+                        <p class="card__description--product-name">Negocio en Crecimiento</p>
+                        <p class="card__description--product-type">Aplicaciones</p>
                     </a>
                 </li>
             </ul>
@@ -194,54 +195,54 @@
     </section>
 
 </main>
-<footer class="background-color-section-footer">
-    <div class="footer-container">
-        <div class="margin-space">
-            <a href="index.html" class="link-logo ubication-logo">WebStudio</a>
-            <address>
-                <p class="location-information">Calz, Ticomán 500, ciudad de <br>México, CDMX, México</p>
-                <ul class="footer-contacts">
-                    <li><a href="mailto:info@example.com" class="link-footer">info@example.com</a></li>
-                    <li><a href="tel:+525555296000" class="link-footer">+52 55 5529 6000</a></li>
-                </ul>
-            </address>
-        </div>
-        <div>
-            <p class="find-us-text">ENCUENTRENOS EN</p>
-            <ul class="icon-footer-container">
-                <li><a class="icon-footer" href="https://www.instagram.com"><svg width="44" height="44"
-                            viewBox="0 -10 20 40">
-                            <use href="./spriteSVG/icons.svg#icon-instagram"></use>
-                        </svg> </a> </li>
-                <li><a class="icon-footer" href="https://www.twitter.com"><svg width="44" height="44"
-                            viewBox="0 -10 20 40">
-                            <use href="./spriteSVG/icons.svg#icon-twitter"></use>
-                        </svg> </a> </li>
-                <li><a class="icon-footer" href="https://facebook.com"><svg width="44" height="44"
-                            viewBox="-5 -10 20 40">
-                            <use href="./spriteSVG/icons.svg#icon-facebook"></use>
-                        </svg></a> </li>
-                <li><a class="icon-footer" href="https://linkedin.com"><svg width="44" height="44"
-                            viewBox="0 -10 20 40">
-                            <use href="./spriteSVG/icons.svg#icon-linkedin"></use>
-                        </svg> </a> </li>
-            </ul>
-        </div>
-        <form>
-            <p class="sub-text">SUSCRÍBASE AL BOLETÍN INFORMATIVO</p>
-            <div class="label-container">
-                <label for="input-field" class="transparent-label">
-                    <input class="input-size" type="email" name="email" placeholder="Correo electrónico" />
-                </label>
-                <button class="form-btn" type="submit">
-                    <p>Suscríbase</p> <svg width="20" height="20" viewBox="0 0 24 24">
-                        <use href="./spriteSVG/icons.svg#icon-send"></use>
-                    </svg>
-                </button>
+    <footer class="section__background-color--footer">
+        <div class="footer__container">
+            <div class="footer__spaced">
+                <a href="index.html" class="logo__style logo__ubication">WebStudio</a>
+                <address>
+                    <p class="footer__description--location">Calz, Ticomán 500, ciudad de <br>México, CDMX, México</p>
+                    <ul class="footer__contacts">
+                        <li><a href="mailto:info@example.com" class="footer__link--text">info@example.com</a></li>
+                        <li><a href="tel:+525555296000" class="footer__link--text">+52 55 5529 6000</a></li>
+                    </ul>
+                </address>
             </div>
-        </form>
-    </div>
-</footer>
+            <div>
+                <p class="footer__social-media-text">ENCUENTRENOS EN</p>
+                <ul class="footer__icons--container">
+                    <li><a class="footer__icon" href="https://www.instagram.com"><svg width="44" height="44"
+                                viewBox="0 -10 20 40">
+                                <use href="./spriteSVG/icons.svg#icon-instagram"></use>
+                            </svg> </a> </li>
+                    <li><a class="footer__icon" href="https://www.twitter.com"><svg width="44" height="44"
+                                viewBox="0 -10 20 40">
+                                <use href="./spriteSVG/icons.svg#icon-twitter"></use>
+                            </svg> </a> </li>
+                    <li><a class="footer__icon" href="https://facebook.com"><svg width="44" height="44"
+                                viewBox="-5 -10 20 40">
+                                <use href="./spriteSVG/icons.svg#icon-facebook"></use>
+                            </svg></a> </li>
+                    <li><a class="footer__icon" href="https://linkedin.com"><svg width="44" height="44"
+                                viewBox="0 -10 20 40">
+                                <use href="./spriteSVG/icons.svg#icon-linkedin"></use>
+                            </svg> </a> </li>
+                </ul>
+            </div>
+            <div class="footer-form__container">
+                <form>
+                    <p class="footer-form__suscribe-text">SUSCRÍBASE AL BOLETÍN INFORMATIVO</p>
+                    <label for="input-field">
+                        <input class="input-size" type="email" name="email" placeholder="Correo electrónico" />
+                    </label>
+                    <button class="footer-form__button--send" type="submit">
+                        <p>Suscríbase</p> <svg width="20" height="20" viewBox="0 0 24 24">
+                            <use href="./spriteSVG/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
