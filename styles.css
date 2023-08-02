@@ -339,7 +339,7 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-label > .input-size {
+label>.input-size {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -475,8 +475,8 @@ textarea:hover {
   outline: none;
 }
 
-.contact-form__input:focus + .contact-form__svg,
-.contact-form__input:hover + .contact-form__svg {
+.contact-form__input:focus+.contact-form__svg,
+.contact-form__input:hover+.contact-form__svg {
   fill: #2196f3;
 }
 
@@ -535,11 +535,11 @@ textarea:hover {
   top: -10px;
 }
 
-.custom-checkbox input[type="checkbox"]:checked + label svg {
+.custom-checkbox input[type="checkbox"]:checked+label svg {
   display: inline-block;
 }
 
-.custom-checkbox > p {
+.custom-checkbox>p {
   position: relative;
   left: 12px;
   top: -25px;
@@ -557,6 +557,7 @@ textarea:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 /*main (second section)*/
 
 .second-section__container {
@@ -878,7 +879,7 @@ textarea:hover {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards__container  {
+.cards__container {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
