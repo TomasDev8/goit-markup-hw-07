@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: $font-three-color;
+}
+
+body {
+    color: $font-one-color;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.section__padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

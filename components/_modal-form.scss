@@ -1,0 +1,158 @@
+.contact-form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+}
+
+.contact-form__input {
+    margin: 1px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    display: block;
+    padding-left: 42px;
+
+    & {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    display: block;
+    padding-left: 42px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.contact-form__button--send {
+    background-color: $brand-color;
+    color: #fff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 28px;
+    cursor: pointer;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.contact-form__input:focus,
+textarea:focus,
+.contact-form__input:hover,
+textarea:hover {
+    border: 1px solid $brand-color;
+    outline: none;
+}
+
+.contact-form__input:focus+.contact-form__svg,
+.contact-form__input:hover+.contact-form__svg {
+    fill: #2196f3;
+}
+
+.contact-form__svg {
+    position: absolute;
+    top: 38px;
+    left: 12px;
+    fill: $font-one-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-container {
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-top: 10px;
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.custom-checkbox label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 16px;
+    height: 0.9em;
+    border: 1px solid black;
+    border-radius: 2px;
+    overflow: hidden;
+    right: 11px;
+}
+
+.custom-checkbox label svg {
+    display: none;
+    position: relative;
+    top: -10px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+label svg {
+    display: inline-block;
+}
+
+.custom-checkbox>p {
+    position: relative;
+    left: 12px;
+    top: -25px;
+    color: $font-two-color;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.textarea-width {
+    width: 448px;
+    height: 120px;
+    padding: 16px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    display: block;
+    cursor: pointer;
+    border: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.self-pos {
+    align-self: flex-end;
+}
+
+.head-form {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(33, 33, 33, 1);
+    margin-bottom: 12px;
+}
+
+label {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+    padding-top: 10px;
+    padding-bottom: 4px;
+    position: relative;
+}

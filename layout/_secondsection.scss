@@ -1,0 +1,46 @@
+.second-section__container {
+    padding-top: 94px;
+}
+
+.colummn-text__container {
+    display: flex;
+    margin: 10px;
+    height: auto;
+    text-align: left;
+    padding-left: 0%;
+    gap: 30px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.icon-box {
+    background: $icon-color;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box__tittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: $default-space;
+    text-transform: uppercase;
+    color: $font-one-color;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.text-box__description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: $default-space;
+    color: $font-two-color;
+}

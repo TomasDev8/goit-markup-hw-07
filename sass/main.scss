@@ -1,0 +1,18 @@
+//.utils 
+@import "./utils/variables";
+@import "./utils/container";
+//.base 
+@import "../base/commons";
+//.components
+@import "../components/backdrop";
+@import "../components/modal";
+@import "../components/modal-form";
+//.layout//
+@import "../layout/header";
+@import "../layout/firstsection";
+@import "../layout/secondsection";
+@import "../layout/thirdsection";
+@import "../layout/fourthsection";
+@import "../layout/fifthsection";
+@import "../layout/footer";
+@import "../layout/portafolio";
